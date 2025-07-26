@@ -1,6 +1,6 @@
 Alzheimer's Disease Prediction Using Longitudinal Magnetic Resonance Imaging and Deep Learning (DenseNet-BiLSTM)
 Abstract
-This project presents the implementation of a novel hybrid deep learning framework for Alzheimer's disease prediction using longitudinal MRI images. The primary goal is to overcome common challenges in Alzheimer's diagnosis, such as limited sample size, high data dimensionality, the need to capture temporal dynamics, overfitting, and vanishing gradients. The proposed model is based on combining DenseNet and BiLSTM networks, which simultaneously extract and classify spatial and temporal features from longitudinal MRI images over four years. The model is evaluated on 684 MRI images from the ADNI database, and experimental results show an accuracy of 95.28% in AD/CN classification, significantly improving Alzheimer's diagnosis.
+This project presents the implementation of a novel hybrid deep learning framework for Alzheimer's disease prediction using longitudinal MRI images. The primary goal is to overcome common challenges in Alzheimer's diagnosis, such as limited sample size, high data dimensionality, the need to capture temporal dynamics, overfitting, and vanishing gradients. The proposed model is based on combining DenseNet and BiLSTM networks, which simultaneously extract and classify spatial and temporal features from longitudinal MRI images over four years. The model is evaluated on 648 MRI images from the ADNI database, and experimental results show an accuracy of 95.28% in AD/CN classification, significantly improving Alzheimer's diagnosis.
 
 Keywords: Alzheimer's disease, longitudinal analysis, magnetic resonance imaging, DenseNet, BiLSTM, deep learning
 
@@ -11,7 +11,7 @@ Methodology
 1. Data
 This project utilizes longitudinal MRI images from the ADNI (Alzheimer's Disease Neuroimaging Initiative) database.
 
-Number of Participants: 684 individuals.
+Number of Participants: 648 individuals.
 
 Modality: T1-weighted MRI images with 3 Tesla field strength.
 
